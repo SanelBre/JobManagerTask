@@ -1,0 +1,18 @@
+{
+	"version": "0.0.1",
+	"configurations": [
+		{
+			"restart": false,
+			"name": "server",
+			"args": [
+				"run",
+				"start"
+			],
+			"runtimeExecutable": "npm",
+			"request": "launch",
+			"type": "node",
+			"outputCapture": "std",
+			"cwd": "${workspaceFolder}"
+		},
+	]
+}
